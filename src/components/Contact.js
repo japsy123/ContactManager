@@ -1,7 +1,16 @@
 import React, { Component } from "react";
 
-export default class Contact extends Component {
+class Contact extends Component {
   render() {
-    return <div />;
+    return (
+      <div>
+        <h4> John Doe</h4>
+        <ul>
+          <li>Email:joe@gmail.com</li>
+          <li>Phone:555-555-555</li>
+        </ul>
+      </div>
+    );
   }
 }
+export default Contact;
