@@ -5,9 +5,8 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      <h1> Contact Mananger</h1>
-      <Contact />
       <Header />
+      <Contact />
     </div>
   );
 }
