@@ -5,9 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header branding="Contact Manager1" />
-      <Contact name="Jal" email="jal@gmail.com" phone="111-111-111" />
+    <div className="App ">
+      <div className="container">
+        <Header branding="Contact Manager1" />
+        <Contact name="Jal" email="jal@gmail.com" phone="111-111-111" />
+      </div>
     </div>
   );
 }
