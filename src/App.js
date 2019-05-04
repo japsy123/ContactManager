@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header branding="Contact Manager1" />
       <Contact />
     </div>
   );
